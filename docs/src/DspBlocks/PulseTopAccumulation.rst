@@ -3,6 +3,8 @@
 ===================================
 Pulse-Top Accumulation
 ===================================
+This IP calculate the average of a pulse top. Both input and output are 16bits signed with 14decimal bits. Trig1 marks the start of the accumulation. 'cnt_top' is a 10bits unsiged input register that gives number of samples for accumulation. Maximum accumulation samples is 2^10=1024. An internal divider divides the sum to get average output. A boolean 'acc_valid' marks the end of the accumulation.
+
 
 Example of referring another page (Make sure you have read intro ":ref:`introduction`" before continuing)
 
