@@ -6,6 +6,10 @@ Phase Control
 
 This is a SLAC LLRF library block for phase control. 
 
+   .. image:: ../figs/phase_control.png
+     :width: 300
+     :alt: Alternative text
+
 Block interface:
 
 * Read Ports
