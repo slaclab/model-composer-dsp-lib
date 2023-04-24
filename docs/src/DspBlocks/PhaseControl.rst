@@ -4,6 +4,8 @@
 Phase Control
 ===================================
 
+Introduction:
+**********
 This is a SLAC LLRF library block for phase control. 
 
    .. image:: ../figs/phase_control.png
@@ -11,6 +13,7 @@ This is a SLAC LLRF library block for phase control.
      :alt: Alternative text
 
 Block interface:
+**********
 
 * Read Ports
    * p_act: take the phase value of current pulse.
@@ -22,4 +25,7 @@ Block interface:
 * Write Ports
    * p_gain: the new phase value calculated by the phase control block.
 
+Block Parameters: 
+**********
+None 
 
