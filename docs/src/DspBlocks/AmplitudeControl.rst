@@ -6,7 +6,7 @@ Amplitude Control
 
 Introduction:
 **********
-This is a SLAC LLRF library block for amplitude control. The average amplitude for each on the RF pulase 
+This is a SLAC LLRF library block for amplitude control. The average amplitude for each of the RF pulse is taken from upper stream blocks. A new amplitude is calculated based on the user defined desire amplitude with a control step size. 
 
    .. image:: ../figs/amplitude_control.png
      :width: 200
