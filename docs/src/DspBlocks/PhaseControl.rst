@@ -4,7 +4,10 @@
 Phase Control
 ===================================
 
-Example of referring another page (Make sure you have read intro ":ref:`introduction`" before continuing)
+This is a SLAC LLRF library block for phase control. 
+
+Block interface:
+
 
 Example of displaying code
 
