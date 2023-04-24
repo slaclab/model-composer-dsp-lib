@@ -19,6 +19,6 @@ Block interface:
    * a_gain:  user defined amplitude control gain from a user defined software registers. The gain controls the step size of each pulse to pulse correction.
 
 * Write Ports
-   * a_set: the new amplitude value calculated by the amplitude control block.
+   * a_set: the new amplitude value calculated by the amplitude control block. The new value will be used to set the amplitude for next RF pulse.
 
 Block Parameters: None 
