@@ -7,7 +7,7 @@ Phase Control
 This is a SLAC LLRF library block for phase control. 
 
    .. image:: ../figs/phase_control.png
-     :width: 300
+     :width: 200
      :alt: Alternative text
 
 Block interface:
@@ -22,15 +22,4 @@ Block interface:
 * Write Ports
    * p_gain: the new phase value calculated by the phase control block.
 
-Example of displaying code
 
-.. code-block:: bash
-
-  $ git clone --recursive git@github.com:slaclab/model-composer-dsp-lib
-  
-  
-Example of adding a figure
-
-   .. image:: ../figs/SLAC_logo.png
-     :width: 800
-     :alt: Alternative text
