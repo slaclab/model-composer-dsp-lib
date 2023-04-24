@@ -4,17 +4,21 @@
 Amplitude Control
 ===================================
 
-Example of referring another page (Make sure you have read intro ":ref:`introduction`" before continuing)
+This is a SLAC LLRF library block for amplitude control. 
 
-Example of displaying code
-
-.. code-block:: bash
-
-  $ git clone --recursive git@github.com:slaclab/model-composer-dsp-lib
-  
-  
-Example of adding a figure
-
-   .. image:: ../figs/SLAC_logo.png
-     :width: 800
+   .. image:: ../figs/amplitude_control.png
+     :width: 200
      :alt: Alternative text
+
+Block interface:
+
+* Read Ports
+   * a_act: take the amplitude value of current RF pulse.
+   * a_des: take the desire amplitude value from a user defined software registers.
+   * a_low: user defined lower limit for rational amplitude error from a user defined software registers. If the rational amplitude error is lower than this value, the amplitude control block will not change the amplitude value.
+   * a_gain:  user defined amplitude control gain from a user defined software registers. The gain controls the step size of each pulse to pulse correction.
+
+* Write Ports
+   * a_set: the new amplitude value calculated by the amplitude control block.
+
+Block Parameters: None 
