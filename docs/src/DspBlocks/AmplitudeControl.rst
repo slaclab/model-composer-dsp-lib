@@ -11,6 +11,8 @@ This is a SLAC LLRF library block for amplitude control.
      :alt: Alternative text
 
 Block interface:
+**********
+
 
 * Read Ports
    * a_act: take the amplitude value of current RF pulse.
@@ -22,3 +24,4 @@ Block interface:
    * a_set: the new amplitude value calculated by the amplitude control block. The new value will be used to set the amplitude for next RF pulse.
 
 Block Parameters: None 
+**********
