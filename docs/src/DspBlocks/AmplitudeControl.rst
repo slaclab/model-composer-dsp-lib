@@ -4,15 +4,16 @@
 Amplitude Control
 ===================================
 
-This is a SLAC LLRF library block for amplitude control. 
+Introduction:
+**********
+This is a SLAC LLRF library block for amplitude control. The average amplitude for each on the RF pulase 
 
    .. image:: ../figs/amplitude_control.png
      :width: 200
      :alt: Alternative text
 
-Block interface:
+Block Interfaces:
 **********
-
 
 * Read Ports
    * a_act: take the amplitude value of current RF pulse.
@@ -23,5 +24,6 @@ Block interface:
 * Write Ports
    * a_set: the new amplitude value calculated by the amplitude control block. The new value will be used to set the amplitude for next RF pulse.
 
-Block Parameters: None 
+Block Parameters: 
 **********
+None 
