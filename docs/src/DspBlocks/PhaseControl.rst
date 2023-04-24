@@ -8,6 +8,9 @@ This is a SLAC LLRF library block for phase control.
 
 Block interface:
 
+* Read Ports
+    * p_act: take the phase value of current pulse
+    * p_des: take the desire phase value from a user defined software registers
 
 Example of displaying code
 
