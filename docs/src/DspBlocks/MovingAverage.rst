@@ -4,12 +4,16 @@
 Moving Average
 ===================================
 Introduction
+
 .. image:: ../figs/movingaverage.PNG
      :width: 100
      :alt: Alternative text
 
+Block interfaces
 
 On default, input signal is 16 bits signed with 14 decimal bits, output is 32bits signed with 16decimal bits. Number of samples can be varied through shift_addr register, which is an 8 bits unsiged data. So the maximum number of samples to be taken by the filter is 2^8=256. Eg., if you want to take in 128 samples, set shift_addr to 2^7-1, and input 7 to shift_bits under library mask.
+
+Block parameters
 
 Example of referring another page (Make sure you have read intro ":ref:`introduction`" before continuing)
 
