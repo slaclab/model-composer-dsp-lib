@@ -4,8 +4,13 @@
 Trigger Delay
 ===================================
 
-The triggerdelay detects a trigger signal and output a delayed trigger signal. Both in and out are boolean. The delay time is controlled through an 8bits unsigned register input cnt_top. Delay time is counted as  cnt_top*dspclk.
+Introduction
+************
+The triggerdelay detects a trigger signal and output a delayed trigger signal. Both in and out are boolean. The delay time is controlled through an 8bits unsigned register input 'cnt_top'. Delay time is counted as  cnt_top*dspclk.
 
+ .. image:: ../figs/trig_delay.PNG
+     :width: 200
+     :alt: Alternative text
 
 Example of referring another page (Make sure you have read intro ":ref:`introduction`" before continuing)
 
