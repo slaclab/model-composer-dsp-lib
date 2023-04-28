@@ -14,7 +14,7 @@ Block interfaces
 ****************
 
 Both input waveform (datain) and outputs (sample1, sample2, sample3) are signed 16bits with 14decimal bits.
-delay_cnt and delay_cnt2 are both unsigned 8 bits.RF_trig is boolean.
+delay_cnt and delay_cnt2 are both unsigned 8 bits. RF_trig is boolean.
 
 
 
