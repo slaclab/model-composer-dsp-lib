@@ -25,12 +25,3 @@ The filter length or the number of samples to be averaged can be varied through 
      :width: 400
      :alt: Alternative text
      
-     
-
-#Example of displaying code
-
-#.. code-block:: bash
-
-# $ git clone --recursive git@github.com:slaclab/model-composer-dsp-lib
-  
-  
