@@ -13,19 +13,23 @@ This is a reconfigurable moving average filter that users can change the filter 
 
 Block interfaces
 ****************
-Inport
-
-On default, input signal is 16 bits signed with 14 decimal bits, output is 32bits signed with 16decimal bits. Number of samples can be varied through shift_addr register, which is an 8 bits unsiged data. So the maximum number of samples to be taken by the filter is 2^8=256. Eg., if you want to take in 128 samples, set shift_addr to 2^7-1, and input 7 to shift_bits under library mask.
+On default, input signal is 16 bits signed with 14 decimal bits, outputport is 32bits signed with 16decimal bits. 
 
 Block parameters
 ****************
 
-Example of referring another page (Make sure you have read intro ":ref:`introduction`" before continuing)
+Number of samples can be varied through shift_addr register, which is an 8 bits unsiged data. So the maximum number of samples to be taken by the filter is 2^8=256. Eg., if you want to take in 128 samples, set shift_addr to 2^7-1, and input 7 to shift_bits under library mask.
 
-Example of displaying code
+.. image:: ../figs/movingaverage_mask.PNG
+     :width: 200
+     :alt: Alternative text
+     
+     
 
-.. code-block:: bash
+#Example of displaying code
 
-  $ git clone --recursive git@github.com:slaclab/model-composer-dsp-lib
+#.. code-block:: bash
+
+# $ git clone --recursive git@github.com:slaclab/model-composer-dsp-lib
   
   
