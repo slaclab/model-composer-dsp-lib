@@ -16,6 +16,6 @@ Example of displaying code
   
 Example of adding a figure
 
-   .. image:: ../figs/SLAC_logo.png
+   .. image:: ../figs/movingaverage.PNG
      :width: 800
      :alt: Alternative text
