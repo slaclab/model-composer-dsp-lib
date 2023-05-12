@@ -18,6 +18,15 @@ Block interfaces
 ****************
 Both data_in and data_out are 16bits signed with 14decimal bits. trig1 and acc_valid are blooean. cnt_top is 10bits unsigned.
 
+* Input Ports
+   * data_in: 16bits input signal, 14 decimal bits.
+   * trig1: trig the start of the accumulation.
+   * cnt_top: defines the accumulation length. 8bits.
+   
+* Output Ports
+   * data_out, 16bits output, 14 decimal bits.
+   * acc_valid, one bit boolean signal that indicates the accumualtion is complete.
+   * sat_det, one bit boolean output indicates internal saturation events.
 
 Block parameters
 ****************
