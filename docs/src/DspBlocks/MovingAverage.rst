@@ -16,6 +16,14 @@ Block interfaces
 Maximum data input and data output bits is 32bits. On default, input signal is 16 bits signed with 14 decimal bits, out data port is 32bits signed with 16decimal bits. 
 Filter length can be varied through input port addr_shift which is an 8bits register.
 
+* Input Ports
+   * data_in: 16bits input signal
+   * addr_shift: 8 bits input that define the fliter length.
+   
+* Output Ports
+   * data_out, signed 32bits output with 16 decimal bits
+   * sat_det, one bit boolean output indicates internal saturation event.
+      
 Block parameters
 ****************
 
