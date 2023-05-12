@@ -12,10 +12,19 @@ This IP core saves three samples of a waveform. It includes three 'trig_delay' m
      
 Block interfaces
 ****************
-
 Both input waveform (datain) and outputs (sample1, sample2, sample3) are signed 16bits with 14decimal bits.
 delay_cnt and delay_cnt2 are both unsigned 8 bits. RF_trig is boolean.
 
+* Input Ports
+   * data_in: 16bits input signal
+   * RF_trig: one bit trigger
+   * delay_cnt: user defined delay to trigger the record of first sample. 8 bits unsigned.
+   * delay_cnt1: user defined delay to trigger the record of second sample. 8 bits unsigned.
+
+* Output Ports
+   * sample1, 1st saved sample, 16 bits.
+   * sample2, 2nd saved sample, 16 bits.
+   * sample3, 3rd saved sample, 16 bits.
 Block Parameters: 
 **********
 None 
