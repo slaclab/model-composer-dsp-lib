@@ -17,6 +17,13 @@ Block interfaces
 Users can change the delay time through an 8bits unsigned input register 'delay_cnt'.
 Both trigRF and trigout are 1 bit boolean.
 
+* Input Ports
+   * trig_RF: input trigger.
+   * delay_cnt: triger delay, 8 bits unsigned.
+   
+* Output Ports
+   * trig_out, delayed trigger.
+      
 Block parameters
 ************
 An internal counter is used to count clock delays. Users can vary the counter bits under mask. On default, it is set to 11bits.
