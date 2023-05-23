@@ -20,6 +20,7 @@ Here are the steps to generate dspcore IP from Model Composer after you open the
      :alt: Alternative text
      
 If the first step is not performed, the custom IP will not be loaded to the Simulink model as following figure shows. This is a temperoray solution for this and the process will be scripted in the future.
-      .. image:: ./figs/dspcore_noload.jpg
+     
+   .. image:: ./figs/dspcore_noload.jpg
      :width: 800
      :alt: Alternative text
