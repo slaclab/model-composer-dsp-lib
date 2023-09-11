@@ -1,35 +1,22 @@
 .. _MovingAverage:
 
 ===================================
-Moving Average
+Vector to scalar conversion
 ===================================
 Introduction
 ************
-This is a reconfigurable moving average filter that users can change the filter length and input/output data bits format. 
+This block converts a super sample rate (SSR=16) signal to a standard scalar signal. 
 
-.. image:: ../figs/Vector2scalar.PNG
+.. image:: ../figs/vector2scalar.PNG
      :width: 200
      :alt: Alternative text
 
 Block interfaces
 ****************
-Maximum data input and data output bits is 32bits. On default, input signal is 16 bits signed with 14 decimal bits, out data port is 32bits signed with 16decimal bits. 
-Filter length can be varied through input port addr_shift which is an 8bits register.
-
+Input data type is signed 36 bits with 32 binary bits. Out data is 18bits signed with 16decimal bits. 
 * Input Ports
-   * data_in: 16bits input signal
-   * addr_shift: 8 bits input that define the fliter length.
-   
+   * data_in: signed 36_32   
 * Output Ports
-   * data_out, signed 32bits output with 16 decimal bits
-   * sat_det, one bit boolean output indicates internal saturation event.
-      
-Block parameters
-****************
+   * data_out, signed 18_16
 
-The filter length or the number of samples to be averaged can be varied through shift_addr register, which is an 8 bits unsiged data. So the maximum number of samples to be taken by the filter is 2^8=256. Eg., if you want to average 128 samples, set shift_addr to 2^7-1, and input 7 to shift_bits under library mask.
-
-.. image:: ../figs/movingaverage_mask.PNG
-     :width: 400
-     :alt: Alternative text
      
