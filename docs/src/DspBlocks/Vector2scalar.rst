@@ -7,7 +7,7 @@ Introduction
 ************
 This is a reconfigurable moving average filter that users can change the filter length and input/output data bits format. 
 
-.. image:: ../figs/movingaverage.PNG
+.. image:: ../figs/Vector2scalar.PNG
      :width: 200
      :alt: Alternative text
 
