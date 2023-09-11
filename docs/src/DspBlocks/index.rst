@@ -16,6 +16,6 @@ This section describes "Dsp Blocks"
    PhaseControl
    PulseTopAccumulation
    TriggerDelay
-   VectorNCO
-	 Vector2scalar
+VectorNCO
+Vector2scalar
   
