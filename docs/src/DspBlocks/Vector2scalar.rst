@@ -17,6 +17,6 @@ Block interfaces
 * Input Ports
    * data_in: signed 36_32   
 * Output Ports
-   * data_out, signed 18_16
+   * data_out: signed 18_16
 
      
