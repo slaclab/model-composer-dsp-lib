@@ -1,13 +1,13 @@
 .. _MovingAverage:
 
 ===================================
-Moving Average
+Vector NCO
 ===================================
 Introduction
 ************
-This is a reconfigurable moving average filter that users can change the filter length and input/output data bits format. 
+This is a super sample rate numerically controlled oscillator, SSR=16.
 
-.. image:: ../figs/movingaverage.PNG
+.. image:: ../figs/vectorNCO.PNG
      :width: 200
      :alt: Alternative text
 
