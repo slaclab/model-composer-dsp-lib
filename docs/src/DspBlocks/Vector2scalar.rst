@@ -5,7 +5,7 @@ Vector to scalar conversion
 ===================================
 Introduction
 ************
-This block converts a super sample rate (SSR=16) signal to a standard scalar signal. 
+This block converts a super sample rate (SSR=16) signal to a standard scalar signal. The scalar output is an average of the SSR samples on every clock.
 
 .. image:: ../figs/vector2scalar.PNG
      :width: 200
