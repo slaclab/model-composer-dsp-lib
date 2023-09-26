@@ -1,7 +1,7 @@
 .. _MovingAverage:
 
 ===================================
-Vector to scalar conversion
+SSR sample to scalar sample conversion
 ===================================
 Introduction
 ************
